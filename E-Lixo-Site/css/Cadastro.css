@@ -1,0 +1,25 @@
+.container {
+    max-width: 960px;
+  }
+
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+  
+  .lh-condensed { line-height: 1.25; }
+  .site-header {
+    background-color: rgba(34, 147, 165, 0.85);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: rgb(255, 255, 255);
+    transition: ease-in-out color .15s;
+  }
+  .site-header a:hover {
+    color: rgb(2, 247, 255);
+    text-decoration: none;
+  }
+.btn {
+  background-color:rgb(34, 147, 165, 0.85);
+}
+
